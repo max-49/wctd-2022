@@ -38,6 +38,7 @@ body {
 .team-boxed {
     color:#313437;
     background-color:#eef4f7;
+    margin-top:40px;
   }
   
   .team-boxed p {
@@ -126,7 +127,6 @@ body {
   }
   
   /*Footer styling*/
-  /* footer styling */
 .card{
     margin-top: 0px;
     padding-left: 10px;

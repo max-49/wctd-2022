@@ -1,4 +1,6 @@
 import girl from './girl.jpeg'
+import chichi from './chichi.png'
+import max from './max.png'
 
 function About() {
     return (
@@ -20,7 +22,7 @@ function About() {
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 item">
-                    <div class="box"><img src={girl} alt='' />
+                    <div class="box"><img src={chichi} alt='' />
                         <h3 class="name">Chigozirim Ifebi</h3>
                         <p class="title">Artist</p>
                         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
@@ -28,7 +30,7 @@ function About() {
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 item">
-                    <div class="box"><img src={girl} alt='' />
+                    <div class="box"><img src={max} alt='' />
                         <h3 class="name">Massimo Marino</h3>
                         <p class="title">Stylist</p>
                         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
