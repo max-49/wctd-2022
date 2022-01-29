@@ -1,21 +1,31 @@
-import logo from './logo.svg';
-import Navbar from './Navbar';
+import Navbar from './navbar.js';
+import Home from './home.js';
+import About from './about.js';
+import Contact from './contact.js';
+import Blog from './blog.js';
+import Footer from './footer.js'
 import './style.css';
+import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
-        <title>Melanoma</title>
-      </head>
       <body>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <Navbar />
-        <div class="parallax"></div>
-        <h1>we want to fix melanoma!</h1>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
+        </Routes>
       </body>
     </div>
+  );
+}
+
+function Test() {
+  return(
+    <h1>testing</h1>
   );
 }
 
