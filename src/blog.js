@@ -4,11 +4,20 @@ import './style.css';
 function Blog(){
     return (
         <div>
-            <h2>Join us on our Mission to diagnose Melanoma effectilvely</h2>
-            <h3>Keep up with the most recent updates</h3>
-            <img src="https://www.lyfemarketing.com/wp-content/uploads/2013/06/people-happy-cheering.jpg" style={{height: "50%"}}></img>
-            
+            <table style={{marginLeft:"auto", marginRight:"auto", textAlign:"center"}}>
+                <h2>Join us on our Mission to diagnose Melanoma effectively</h2>
+                <h3>Keep up with the most recent updates</h3>
+                <tr>
+                    <div style= {{borderStyle:"double", borderWidth:"8px", backgroundColor:"#eccfe2", textAlign:"center", padding:"10px"}}>
+                        <img src="https://www.lyfemarketing.com/wp-content/uploads/2013/06/people-happy-cheering.jpg" style={{width: "100%"}}></img>
+                        <h3>1/28/2022</h3>
+                        <p>Melanoma is the most dangerous type of skin cancer. while they only occur for 1% of skin cancer patients, it also causes the majority of deaths by skin cancer. Melanoma begins to infect the skin pigmentation cells called melanocytes but if left untreated it will worsen and affect lymph nodes, proteins which filter out harmful substances, and cause ulcers. If it is left for even longer it will spread to other parts of the body on the bloodstream, causing multiple other tumers. Given the sevarity of this cancer, early detection is absolutely nessesary. However this is othen difficult because of the absence of trained professionals. Hence First Look was born. With an manchine learning model, we diagnose melanoma with a startling accuracy. </p>
+                    </div>
+                </tr>
+            </table>
         </div>
+        //citations
+        /*https://www.cancer.org/cancer/melanoma-skin-cancer.html*/
     );
 }
 

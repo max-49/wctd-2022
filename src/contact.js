@@ -2,7 +2,7 @@ function Contact() {
     return (
         <div className="App">
             <div>
-                <h1>Join us on our Mission to diagnose Melanoma effectilvely</h1>
+                <h1 style={{textAlign:"center"}}>Join us on our Mission to diagnose Melanoma effectilvely</h1>
                 <table style={{marginLeft:"auto", marginRight:"auto"}}>
                     <tr>
                         <td><div style={{width:"100%", backgroundColor:"#d9acc8", fontSize:"30px", textAlign:"center"}}>  Recieve constant updates.  </div></td>
