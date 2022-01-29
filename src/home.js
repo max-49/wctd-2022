@@ -1,5 +1,6 @@
 import Logo from './Logo.png'
 import FadeInSection from './fade.js'
+import doctors from './doctors.jpeg'
 
 function Home() {
     return(
