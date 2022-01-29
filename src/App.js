@@ -10,8 +10,8 @@ import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <script src="./sticky.js"></script>
       <Navbar />
+      <div style={{paddingTop: "3.5%"}}></div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -21,12 +21,6 @@ function App() {
       <Footer />
     </div>
 
-  );
-}
-
-function Test() {
-  return(
-    <h1>testing</h1>
   );
 }
 
