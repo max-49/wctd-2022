@@ -1,7 +1,7 @@
 function Footer() {
     return (
-        <div className="footer">
-            <div className="card">
+        <div className="footer" style={{backgroundColor: "#B59286"}}>
+            <div className="card" style={{backgroundColor: "#B59286"}}>
                 <div className="card-body">
                     {/* <div className="ui-bar">
                     </div> */}
