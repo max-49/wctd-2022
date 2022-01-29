@@ -1,7 +1,9 @@
 function Footer() {
     return (
-        <div className="App">
+        <div className="footer">
             <a href="https://www.youtube.com/">tube</a>
         </div>
     );
 }
+
+export default Footer;
