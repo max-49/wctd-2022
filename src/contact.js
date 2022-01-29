@@ -21,10 +21,10 @@ function Contact() {
                         <td><div style={{width:"100%", backgroundColor:"#c49670", fontSize:"30px", textAlign:"center"}}>  Follow us on Facebook  </div></td>
                         <td><a href="https://www.facebook.com/FirstLook-112298388026866/"><img src='https://www.freeiconspng.com/uploads/facebook-logo-facebook-logo-9.png' style={{height:"80px"}}/></a></td> 
                     </tr>
-               </table>
+                </table>
             </div>
         </div>
     );
 }
 
-export default Contact
+export default Contact;
