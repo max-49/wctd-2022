@@ -10,15 +10,15 @@ import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <body>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes>
-      </body>
+      <script src="./sticky.js"></script>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

@@ -1,14 +1,34 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .parallax {
     background-image: url("https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg");
 
-    min-height: 500px;
+    /* min-height: 500px; */
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body {
+    background-color: blue;
+}
+
+.flex-container {
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    opacity: 100%;
+    margin: 10%;
+
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.footer {
+    bottom: 0;
 }
