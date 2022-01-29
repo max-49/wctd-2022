@@ -125,4 +125,78 @@ body {
     opacity:1;
   }
   
+  /*Footer styling*/
+  /* footer styling */
+.card{
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+  }
+  .ui-bar{
+    background-color: #4A6FA5;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .copyright{
+    text-align: center;
+    padding-top: 0px;
+  }
+  /* footer stylings-- social media icons*/
+  .footerbuttons {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+  }
+  .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 5px;
+      display: inline-block;
+  }
+  
+  .teamheader {
+    text-align: center;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .float-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    border: 10px solid #166088;
+  }
+  
+  .socials {
+    height: 50px;
+    padding: 20px;
+  }
   
