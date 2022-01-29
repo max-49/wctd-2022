@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import Navbar from './Navbar';
+import Navbar from './navbar.js';
 import './style.css';
 function Contact(){
     <div>
