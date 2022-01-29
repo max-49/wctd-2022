@@ -12,14 +12,14 @@
 body {
     background-color: blue;
 }
-
+/*Home page*/
 .flex-container {
     text-align: center;
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
     box-sizing: border-box;
-    background-color: white;
+    background-color: #E8DAD7;
     opacity: 100%;
     margin: 10%;
 
@@ -32,3 +32,171 @@ body {
 .footer {
     bottom: 0;
 }
+
+
+/*About us page*/
+.team-boxed {
+    color:#313437;
+    background-color:#eef4f7;
+  }
+  
+  .team-boxed p {
+    color:#7d8285;
+  }
+  
+  .team-boxed h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .team-boxed h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .team-boxed .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .team-boxed .intro p {
+    margin-bottom:0;
+  }
+  
+  .team-boxed .people {
+    padding:50px 0;
+  }
+  
+  .team-boxed .item {
+    text-align:center;
+  }
+  
+  .team-boxed .item .box {
+    text-align:center;
+    padding:30px;
+    background-color:#fff;
+    margin-bottom:30px;
+  }
+  
+  .team-boxed .item .name {
+    font-weight:bold;
+    margin-top:28px;
+    margin-bottom:8px;
+    color:inherit;
+  }
+  
+  .team-boxed .item .title {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#d0d0d0;
+    letter-spacing:2px;
+    font-size:13px;
+  }
+  
+  .team-boxed .item .description {
+    font-size:15px;
+    margin-top:15px;
+    margin-bottom:20px;
+  }
+  
+  .team-boxed .item img {
+    max-width:160px;
+  }
+  
+  .team-boxed .social {
+    font-size:18px;
+    color:#a2a8ae;
+  }
+  
+  .team-boxed .social a {
+    color:inherit;
+    margin:0 10px;
+    display:inline-block;
+    opacity:0.7;
+  }
+  
+  .team-boxed .social a:hover {
+    opacity:1;
+  }
+  
+  /*Footer styling*/
+  /* footer styling */
+.card{
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+  }
+  .ui-bar{
+    background-color: #4A6FA5;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .copyright{
+    text-align: center;
+    padding-top: 0px;
+  }
+  /* footer stylings-- social media icons*/
+  .footerbuttons {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+  }
+  .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 5px;
+      display: inline-block;
+  }
+  
+  .teamheader {
+    text-align: center;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .float-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    border: 10px solid #166088;
+  }
+  
+  .socials {
+    height: 50px;
+    padding: 20px;
+  }
+  
