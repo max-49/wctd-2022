@@ -2,7 +2,7 @@ function Contact() {
     return (
         <div className="App">
             <div style= {{borderStyle:"outset", borderWidth:"8px", backgroundColor:"#f2e9ef", textAlign:"center", padding:"10px"}}>
-                <h1 style={{textAlign:"center"}}>Join us on our Mission to Diagnose Melanoma Effectively</h1>
+                <h1 style={{textAlign:"center"}}>Keep up with us as we strive to better find ways to detect melanoma early.</h1>
                 <br/><br/>
                 <table style={{marginLeft:"auto", marginRight:"auto"}}>
                     <tr style={{width:"100%", backgroundColor:"#f9e1f1", fontSize:"30px", textAlign:"center", borderStyle:"double", borderWidth:"8px", padding:"10px"}}>
@@ -20,7 +20,7 @@ function Contact() {
                     </tr>
                     <tr style={{width:"100%", backgroundColor:"#faeee1", fontSize:"30px", textAlign:"center" , borderStyle:"double", borderWidth:"8px", padding:"10px"}}> 
                         <td>  Follow us on Facebook  </td>
-                        <td><a href="https://www.facebook.com/FirstLook-112298388026866/"><img alt='' src='https://www.freeiconspng.com/uploads/facebook-logo-facebook-logo-9.png' style={{height:"80px"}}/></a></td> 
+                        <td><a href="https://www.facebook.com/FirstLook-112298388026866/"><img alt='' src='https://www.freepnglogos.com/uploads/facebook-logo-13.png' style={{height:"70px"}}/></a></td> 
                     </tr>
                 </table>
             </div>
