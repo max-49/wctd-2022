@@ -12,21 +12,21 @@ function About() {
                     </div>
                     <div class="row people">
                         <div class="col-md-6 col-lg-4 item">
-                            <div class="box"><img src={anika} alt='' />
+                            <div class="box"><img src={anika} class="rounded-circle" alt='' id = "anika"/>
                                 <h3 class="name">Anika Mahesh</h3>
                                 <p class="title">Musician</p>
                                 <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 item">
-                            <div class="box"><img src={chichi} alt='' />
+                            <div class="box"><img src={chichi} class="rounded-circle" alt='' id = "chichi" />
                                 <h3 class="name">Chigozirim Ifebi</h3>
                                 <p class="title">Artist</p>
                                 <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-4 item">
-                            <div class="box"><img src={max} alt='' />
+                            <div class="box"><img src={max} class="rounded-circle" alt='' />
                                 <h3 class="name">Massimo Marino</h3>
                                 <p class="title">Stylist</p>
                                 <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
