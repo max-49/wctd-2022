@@ -11,7 +11,7 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <Link className="navbar-brand" style={{height: "100%", paddingTop: "-10px"}} to="/">
+                        <Link style={{height: "100%", paddingTop: "5px"}} to="/">
                             <img src={Logo} alt="our logo" height="15px" />
                         </Link>
                         <li className="nav-item">
@@ -32,7 +32,7 @@ function Navbar() {
                     </ul>
                 </div>
             </div>
-            </nav>
+        </nav>
     );
 }
 
