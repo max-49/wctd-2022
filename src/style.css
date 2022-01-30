@@ -9,9 +9,6 @@
   background-size: cover;
 }
 
-body {
-  background-color: blue;
-}
 /*Home page*/
 .flex-container {
   text-align: center;
@@ -35,6 +32,10 @@ body {
 #chichi {
     max-width:170px;
     height:150px;
+}
+
+body {
+  background-color: "#b59286";
 }
 
 /* .blog-container {
