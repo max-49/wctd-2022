@@ -7,20 +7,20 @@ function Contact() {
                 <table style={{marginLeft:"auto", marginRight:"auto"}}>
                     <tr style={{width:"100%", backgroundColor:"#f9e1f1", fontSize:"30px", textAlign:"center", borderStyle:"double", borderWidth:"8px", padding:"10px"}}>
                         <td>Receive constant updates.</td>
-                        <td><a href="https://www.instagram.com/firstlookdermatologic/"><img alt='' src='https://clipartcraft.com/images/instagram-logo-transparent-png-format-3.png' style={{height:"80px"}}/></a></td>
+                        <td><a href="https://www.instagram.com/firstlookdermatologic/" target="_blank"><img alt='' src='https://clipartcraft.com/images/instagram-logo-transparent-png-format-3.png' style={{height:"80px"}}/></a></td>
                         
                     </tr>
                     <tr style={{width:"100%", backgroundColor:"#faeee1", fontSize:"30px", textAlign:"center" , borderStyle:"double", borderWidth:"8px", padding:"10px"}}>     
                         <td> Watch our videos  </td>
-                        <td><a href="https://www.youtube.com/channel/UCpeWHQ0cHxD5KP7pPy07D8Q"><img alt='' src='https://all-4-one.com/wp-content/uploads/2020/12/youtube-icon-logo-logo-icon-png-svg.png' style={{height:"50px"}}/></a></td>
+                        <td><a href="https://www.youtube.com/channel/UCpeWHQ0cHxD5KP7pPy07D8Q" target="_blank"><img alt='' src='https://all-4-one.com/wp-content/uploads/2020/12/youtube-icon-logo-logo-icon-png-svg.png' style={{height:"50px"}}/></a></td>
                     </tr>
                     <tr style={{width:"100%", backgroundColor:"#f9e1f1", fontSize:"30px", textAlign:"center" , borderStyle:"double", borderWidth:"8px", padding:"10px"}}> 
                         <td>  Talk to us on Twitter   </td>
-                        <td><a href="https://twitter.com/FirstLookDerma"><img alt='' src='https://clipartcraft.com/images/twitter-logo-transparent-background-2.png' style={{height:"50px"}}/></a></td>
+                        <td><a href="https://twitter.com/FirstLookDerma" target="_blank"><img alt='' src='https://clipartcraft.com/images/twitter-logo-transparent-background-2.png' style={{height:"50px"}}/></a></td>
                     </tr>
                     <tr style={{width:"100%", backgroundColor:"#faeee1", fontSize:"30px", textAlign:"center" , borderStyle:"double", borderWidth:"8px", padding:"10px"}}> 
                         <td>  Follow us on Facebook  </td>
-                        <td><a href="https://www.facebook.com/FirstLook-112298388026866/"><img alt='' src='https://www.freepnglogos.com/uploads/facebook-logo-13.png' style={{height:"70px"}}/></a></td> 
+                        <td><a href="https://www.facebook.com/FirstLook-112298388026866/" target="_blank"><img alt='' src='https://www.freepnglogos.com/uploads/facebook-logo-13.png' style={{height:"70px"}}/></a></td> 
                     </tr>
                 </table>
             </div>
