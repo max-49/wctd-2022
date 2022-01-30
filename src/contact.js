@@ -24,6 +24,44 @@ function Contact() {
                     </tr>
                 </table>
             </div>
+            <div style={{padding: "5%"}}>
+                <h3>Donate to our cause and help fund the future of medical innovation!</h3>
+                <form onSubmit={(e) => {alert('Your donation has been submitted! Thank you for your generous donation.'); e.preventDefault(); window.location.reload(false);}}>
+                    <div class="mb-3">
+                        <label for="card" class="form-label">Credit Card Number</label>
+                        <input type="text" class="form-control" maxlength="16" id="card" required />
+                        <label for="date" class="form-label">Expiration Date</label>
+                        <input type="month" class="form-control" id="date" required />
+                        <label for="cvv" class="form-label">CVV</label>
+                        <input type="text" class="form-control" maxlength="3" id="cvv" required />
+                    </div>
+                    <div class="mb-3">
+                        <h5>Donation amount (any amount is appreciated!)</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" selected />
+                            <label class="form-check-label" for="flexRadioDefault1">$5</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                            <label class="form-check-label" for="flexRadioDefault1">$10</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                            <label class="form-check-label" for="flexRadioDefault1">$25</label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                            <label class="form-check-label" for="flexRadioDefault1">$50</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </div>
     );
 }

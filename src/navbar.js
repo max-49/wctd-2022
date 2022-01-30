@@ -24,7 +24,7 @@ function Navbar() {
                         <Link className="nav-link" to="/contact">Contact</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link" to="/Product">Product</Link>
+                        <Link className="nav-link" to="/product">Product</Link>
                         </li>
                         <li className="nav-item">
                         <Link className="nav-link" to="/blog">Blog</Link>
