@@ -1,5 +1,3 @@
-import Navbar from './navbar.js';
-import Footer from './footer.js'
 import './style.css';
 function Product(){
     return (
