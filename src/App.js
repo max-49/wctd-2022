@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div style={{paddingTop: "3.5%"}}></div>
+      <div style={{paddingTop: "2%"}}></div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
