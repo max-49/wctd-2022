@@ -4,7 +4,7 @@ import About from './about.js';
 import Contact from './contact.js';
 import Blog from './blog.js';
 import Footer from './footer.js'
-import Product from './Product.js'
+import Product from './product.js'
 
 import './style.css';
 import { Routes, Route } from "react-router-dom";

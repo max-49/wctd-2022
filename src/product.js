@@ -1,4 +1,3 @@
-import './style.css';
 function Product(){
     return (
         <div style={{textAlign:"center", backgroundColor:"#f2e9ef", padding:"10px"}}>
