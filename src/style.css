@@ -28,6 +28,14 @@ body {
 .flex-child {
   flex: 1;
 }  
+#anika {
+    max-width:170px;
+    height:150px;
+}
+#chichi {
+    max-width:170px;
+    height:150px;
+}
 
 /* .blog-container {
 text-align: center;
@@ -75,7 +83,7 @@ visibility: visible;
 /*About us page*/
 .team-boxed {
   color:#313437;
-  background-color:#eef4f7;
+  background-color:#CDB8B6;
   /* margin-top:40px; */
 }
 
@@ -119,7 +127,7 @@ visibility: visible;
 .team-boxed .item .box {
   text-align:center;
   padding:30px;
-  background-color:#fff;
+  background-color:#E8DAD7;
   margin-bottom:30px;
 }
 
@@ -133,7 +141,7 @@ visibility: visible;
 .team-boxed .item .title {
   text-transform:uppercase;
   font-weight:bold;
-  color:#d0d0d0;
+  color:#2F514F;
   letter-spacing:2px;
   font-size:13px;
 }
