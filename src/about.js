@@ -1,4 +1,3 @@
-import girl from './girl.jpeg'
 import chichi from './chichi.png'
 import max from './max.png'
 import anika from './anika.jpeg'

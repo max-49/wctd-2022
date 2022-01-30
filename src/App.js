@@ -7,7 +7,7 @@ import Footer from './footer.js'
 import Product from './Product.js'
 
 import './style.css';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

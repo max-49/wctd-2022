@@ -1,6 +1,5 @@
 import Logo from './Logo.png'
 import FadeInSection from './fade.js'
-import doctors from './doctors.jpeg'
 
 function Home() {
     return(
@@ -31,7 +30,7 @@ function Home() {
                 <div className="flex-container">
                     <div className="flex-child">
                         <h3>Our method</h3>
-                        <p>Our team employs a state-of-the-art Machine Learning Algorithm to detect whether or not a certain rash is melanoma or not. Using the Google's industry standard platform <a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a>, we were able to train an algorithm to accurately and precisely determine whether melanoma is present on a given image. While this algorithm is not correct 100% of the time, like with all algorithms, and is not a method of diagnosis nor a valid substitution for visiting a doctor, our application should be able to give an accurate detection as to whether or not someone should see a medical professional about a certain skin mark.</p>
+                        <p>Our team employs a state-of-the-art Machine Learning Algorithm to detect whether or not a certain rash is melanoma or not. Using the Google's industry standard platform <a href="https://teachablemachine.withgoogle.com/" target="_blank" rel="noreferrer" >Teachable Machine</a>, we were able to train an algorithm to accurately and precisely determine whether melanoma is present on a given image. While this algorithm is not correct 100% of the time, like with all algorithms, and is not a method of diagnosis nor a valid substitution for visiting a doctor, our application should be able to give an accurate detection as to whether or not someone should see a medical professional about a certain skin mark.</p>
                     </div>
                 </div>
             </FadeInSection>
