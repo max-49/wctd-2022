@@ -75,7 +75,7 @@ visibility: visible;
 /*About us page*/
 .team-boxed {
   color:#313437;
-  background-color:#eef4f7;
+  background-color:#CDB8B6;
   /* margin-top:40px; */
 }
 
@@ -119,7 +119,7 @@ visibility: visible;
 .team-boxed .item .box {
   text-align:center;
   padding:30px;
-  background-color:#fff;
+  background-color:#E8DAD7;
   margin-bottom:30px;
 }
 
@@ -163,9 +163,18 @@ visibility: visible;
 .team-boxed .social a:hover {
   opacity:1;
 }
+#chichi {
+    max-width:170px;
+    height:150px;
+}
+
+#anika {
+    max-width:170px;
+    height:150px;
+}
 
 /*Footer styling*/
-.card{
+ .card{
   margin-top: 0px;
   padding-left: 10px;
   padding-right: 10px;
@@ -235,5 +244,5 @@ visibility: visible;
 
 .socials {
   height: 50px;
-  padding: 20px;
-}
+   padding: 20px; }
+
