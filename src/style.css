@@ -237,3 +237,6 @@ visibility: visible;
   height: 50px;
   padding: 20px;
 }
+.li:hover {
+  background-color:white
+}
