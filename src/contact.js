@@ -24,7 +24,7 @@ function Contact() {
                     </tr>
                 </table>
             </div>
-            <div style={{padding: "5%"}}>
+            <div style={{padding: "5%", backgroundColor: "#cdb8b6"}}>
                 <h3>Donate to our cause and help fund the future of medical innovation!</h3>
                 <form onSubmit={(e) => {alert('Your donation has been submitted! Thank you for your generous donation.'); e.preventDefault(); window.location.reload(false);}}>
                     <div class="mb-3">
